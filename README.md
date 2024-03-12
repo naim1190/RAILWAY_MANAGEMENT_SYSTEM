@@ -1,58 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Railway.Management</title>
-    <link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
-    <!--Header part start-->
-    <header>
-        <div class="logo">
-            <img src="Railway logo.jpg">
-        </div>
-        
-        <div class="heading">
-            Bangladesh Railway
-        </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Station Information</a>
-              
-                <ul>
-                    <li>Chittagong</li>
-                    <li>Dhaka</li>
-                    <li>Sylhet</li>
-                    <li>Cumilla</li>
-                </ul>
-                </li>
-                <li><a href="#">Services</a>
-                <ul>
-                        <li>Train Schedule</li>
-                        <li>Station Information</li>
-                        <li>Buy Ticket</li>
-                    </ul>
-                </li>
-                <li><a href="#">Contact Us</a>
-                <ul>
-                    <li>01833-515057 (Naim)</li>
-                    <li>01884-055866 (Sham)</li>
-                    <li>01952-332506 (Ratul)</li>
-                    <li>01867-939450 (Sagor)</li>
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="MY_STYLE.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bangladesh Railway<img src="" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login_Form.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Train_Info.html">Train Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact_us.html">Contact Us</a>
+                    </li>
                 </ul>
-                </li>
-                
-
-            </ul>
+            </div>
         </div>
-    </header>
-    <hr style="color:aquamarine;">
+    </nav>
+    
+   
     <br><br><br>
     <!--Header part end-->
 
@@ -67,6 +55,11 @@
             <option value="Dhaka"></option>
             <option value="Cumilla"></option>
             <option value="Sylhet"></option>
+            <option value="Cox's Bazar"></option>
+            <option value="Chandpur"></option>
+            <option value="Feni"></option>
+            <option value="Rajshahi"></option>
+            
 
 </datalist> 
                 <label for="station">To:</label>
@@ -76,6 +69,12 @@
                     <option value="Dhaka"></option>
                     <option value="Cumilla"></option>
                     <option value="Sylhet"></option>
+                    <option value="Cox's Bazar"></option>
+                    <option value="Chandpur"></option>
+                    <option value="Feni"></option>
+                    <option value="Rajshahi"></option>
+                   
+                    
                 </datalist> <br> <br>
                 
                 <label for="date">Date of Journey:</label> <br>
@@ -83,8 +82,9 @@
 
                 <label for="seat">Choose a class:</label><br>
                 <input list="seat" style="font-size: 20px;" placeholder="choose a class">
-                <datalist id="seat">
-                    <option value="AC_B"></option>
+                <datalist id="seat" >
+
+                    <option value="AC_B" ></option>
                     <option value="AC_S"></option>
                     <option value="SNIGDHA"></option>
                     <option value="F_BERTH"></option>
@@ -94,14 +94,15 @@
                     <option value="SHOVAN"></option>
                     <option value="SHULOV"></option>
                     <option value="AC_CHAIR"></option>
+                    
                 </datalist>
                 
 
     </form>
     <!--Form End-->
     
-    </div><br>
-    <div class="search"> <a href="seat.html" class="seatlink">SEARCH TRAIN</a></div> 
+    </div><br><br><br>
+    <div class="search"> <a href="Login_Form.html" class="seatlink" >SEARCH TRAIN</a></div> 
     
     
     <hr style="color: bisque;">
@@ -142,6 +143,12 @@
     </footer>
     <!--Footer End-->
 
-
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="FormData.js"></script>
+    <script src="TicketBuy.js"></script>
+  </body>
 </html>
