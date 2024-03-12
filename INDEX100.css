@@ -1,0 +1,124 @@
+/* Custom CSS for styling */
+/* Header */
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+}
+
+.heading {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px; /* Add space below the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ccc; /* Change hover color */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #333; /* Background color for dropdown */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #555; /* Change hover background color */
+    color: #fff;
+}
+
+/* Form start*/
+.formD {
+    border-style: dashed;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.formD label,
+.formD input,
+.formD select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formD input,
+.formD select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+/*Form End*/ 
+
+ /*Search Start*/
+.search {
+    text-align: center;
+    margin-top: 20px;
+}
+.search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search .seatlink {
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.search .seatlink:hover {
+    background-color: #0056b3;
+}
+/*Search end*/
+
+/* Images */
+.img {
+    text-align: center;
+}
+
+.img img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .icon {
+    margin-top: 10px;
+}
+
+.footer .icon i {
+    font-size: 24px;
+    margin: 0 5px;
+}

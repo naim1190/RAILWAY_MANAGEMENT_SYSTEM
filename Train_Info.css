@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+   
+    
+}
+
+#Info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.CtoD {
+    color: #009933;
+}
+
+.DtoC {
+    color: #cc3300;
+}
+
+.Cox {
+    color: #0066cc;
+}
+
+.Meg {
+    color: #ff9900;
+}
+
+.Paha {
+    color: #663399;
+}
